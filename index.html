@@ -1,1 +1,80 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Introduction Blog</title>
+    <style>
+        :root {
+            --primary-color: #2C3E50;
+            --secondary-color: #E74C3C;
+            --background-color: #ECF0F1;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        .intro, .projects {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+        }
+
+        .project {
+            background: var(--primary-color);
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Blog</h1>
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>Hi, my name is [Your Name]. I'm a [Your Profession] with experience in [Your Expertise]. I enjoy working on [Your Interests].</p>
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1. What it does, why you built it, and any relevant details.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2. What it does, why you built it, and any relevant details.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of Project 3. What it does, why you built it, and any relevant details.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
